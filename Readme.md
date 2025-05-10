@@ -1,6 +1,6 @@
 # B站缓存工具箱 (By 郭逍遥)
 
-[![GitHub](https://img.shields.io/github/license/your-username/bilibili-toolkit)](LICENSE) [![Python Version](https://img.shields.io/badge/python-3.8+-blue)](https://www.python.org/downloads/) [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/your-username/bilibili-toolkit/actions)
+[![GitHub](https://img.shields.io/github/license/CN-GuoXiaoYao/BiliBili_Export)](LICENSE) [![Python Version](https://img.shields.io/badge/python-3.8+-blue)](https://www.python.org/downloads/) [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/CN-GuoXiaoYao/BiliBili_Export/actions)
 
 ---
 
