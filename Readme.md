@@ -7,6 +7,19 @@
 ## 📌 项目简介
 B站缓存工具箱是一个多功能的B站缓存工具，包含视频下载、缓存重载、文件合并及系统设置四大核心功能。采用图形化界面操作，极大简化B站资源获取与管理流程。
 
+软件截图（工具箱+手机App）
+<table>
+  <tr>
+  <td><img src="https://github.com/CN-GuoXiaoYao/BiliBili_Export/blob/56346ea8d593d07a785f3128efd10b41af11b431/Photo/1.png" 
+       alt="工具箱" 
+       style="width: 750px; border-radius: 8px;"></td>
+       
+  <td><img src="https://github.com/CN-GuoXiaoYao/BiliBili_Export/blob/56346ea8d593d07a785f3128efd10b41af11b431/Photo/2.jpg" 
+       alt="手机缓存工具" 
+       style="width: 200px; border-radius: 8px;"></td>
+</tr>
+</table>
+
 ---
 
 ## 🔧 功能概览
@@ -104,14 +117,15 @@ BiliBili_Export/
 3. **手机缓存**：需提前使用提供的APP导出手机缓存文件名至电脑
 4. **线程控制**：过高线程可能导致系统负载过高
 5. **错误日志**：所有异常都会记录到`errors.log`文件
+   如果需要xml格式弹幕转换ass格式，可以搜索一下这个工具:Danmaku2ASS
 
 ---
 
 ## 💰 支持作者
 如果您觉得本工具对您有帮助，可以给作者B站充电或者在爱发电支持作者：
 
-[![](https://img.shields.io/badge/ Sponsor-%E9%83%BD%E9%80%9A%E9%81%97-orange)](https://space.bilibili.com/504668072)
-[![](https://img.shields.io/badge/ Sponsor-%E6%94%AF%E4%BB%98%E5%AE%9D-blue)]([https://pay.qq.com/](https://afdian.com/a/guoxiaoyao))
+[BiliBili](https://space.bilibili.com/504668072)
+[爱发电](https://afdian.com/a/guoxiaoyao)
 
 ---
 
@@ -127,7 +141,7 @@ BiliBili_Export/
 ---
 
 ## 👨💻 开发者
-郭逍遥 | [GitHub](https://github.com/CN-GuoXiaoYao) | [B站主页](https://space.bilibili.com/504668072)
+郭逍遥 - [GitHub](https://github.com/CN-GuoXiaoYao) | [B站主页](https://space.bilibili.com/504668072)  |  [CSDN](https://blog.csdn.net/qq_58742026)
 
 ---
 
