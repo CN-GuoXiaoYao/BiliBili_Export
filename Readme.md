@@ -67,7 +67,7 @@ BiliBili_Export/
 
 ## ⚙️ 安装指南
 ### ❖ 环境要求
-- Python 3.8+ 
+- Python 3.10+ 
 - Windows操作系统
 - FFmpeg
 
