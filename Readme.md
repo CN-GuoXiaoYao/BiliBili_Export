@@ -1,6 +1,6 @@
 # B站缓存工具箱 (By 郭逍遥)
 
-[![GitHub](https://img.shields.io/github/license/CN-GuoXiaoYao/Bilibili_Export)](LICENSE) [![Python Version](https://img.shields.io/badge/python-3.8+-blue)](https://www.python.org/downloads/) [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/CN-GuoXiaoYao/BiliBili_Export/actions)
+[![GitHub](https://img.shields.io/github/license/CN-GuoXiaoYao/Bilibili_Export)](LICENSE) [![Python Version](https://img.shields.io/badge/python-3.10+-blue)](https://www.python.org/downloads/) [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/CN-GuoXiaoYao/BiliBili_Export/actions)
 
 ---
 
@@ -70,8 +70,10 @@ BiliBili_Export/
 
 ### ❖ 安装步骤
 ```bash
+需提前配置好FFmpeg和环境变量
 下载发布的正式版，然后解压
 双击 开始运行.bat 即可下载所需依赖并运行
+(会自动下载所需要的yutto和各种依赖)
 ```
 
 ---
