@@ -7,6 +7,8 @@
 ## 📌 项目简介
 B站缓存工具箱是一个多功能的B站缓存工具，包含视频下载、缓存重载、文件合并及系统设置四大核心功能。基于yutto开发，采用图形化界面操作，极大简化B站资源获取与管理流程。
 
+<strong>注意:工具还是会有一些BUG，大家可以根据自己的情况进行修改完善</strong>
+
 软件截图（工具箱+手机App）
 <table>
   <tr>
@@ -120,7 +122,8 @@ BiliBili_Export/
 4. **线程控制**：过高线程可能导致系统负载过高
 5. **错误日志**：所有异常都会记录到`errors.log`文件
 6. **搜索和下载记录**： 重载是通过download标记文件来判断文件下载的，搜索也是搜索的这个标记文件
-   如果需要xml格式弹幕转换ass格式，可以搜索一下这个工具:[Danmaku2ASS](https://github.com/m13253/danmaku2ass)
+   
+   <strong>Tip:</strong>如果需要xml格式弹幕转换ass格式，可以搜索一下这个工具:[Danmaku2ASS](https://github.com/m13253/danmaku2ass)
 
 ---
 
