@@ -142,7 +142,7 @@ BiliBili_Export/
 ---
 
 ## 📄 许可协议
-本项目采用MIT开源协议，详情见[LICENSE](LICENSE)文件。
+本项目采用GNU3.0开源协议，详情见[LICENSE](LICENSE)文件。
 
 ---
 
