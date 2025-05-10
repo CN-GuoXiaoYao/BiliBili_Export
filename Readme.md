@@ -118,7 +118,7 @@ BiliBili_Export/
 4. **线程控制**：过高线程可能导致系统负载过高
 5. **错误日志**：所有异常都会记录到`errors.log`文件
 6. **搜索和下载记录**： 重载是通过download标记文件来判断文件下载的，搜索也是搜索的这个标记文件
-   如果需要xml格式弹幕转换ass格式，可以搜索一下这个工具:Danmaku2ASS
+   如果需要xml格式弹幕转换ass格式，可以搜索一下这个工具:[Danmaku2ASS](https://github.com/m13253/danmaku2ass)
 
 ---
 
