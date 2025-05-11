@@ -705,7 +705,6 @@ class BilibiliToolkitGUI:
             folder_name = self.search_results.item(selected[0])['values'][1]
             cache_root = self.config.get('cache_root', '')
             full_path = Path(cache_root) / folder_name
-            print(self.search_results.item(selected[0])['values'][1])
 
             if full_path.exists():
                 os.startfile(str(full_path))  # 打开缓存目录
