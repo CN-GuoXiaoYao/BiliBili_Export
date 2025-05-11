@@ -407,6 +407,11 @@ class BilibiliToolkitGUI:
                                                                                             fill=tk.X, expand=True)
         ttk.Button(btn_frame, text="打开错误日志", command=self.open_error_logs).pack(side=tk.LEFT, padx=5, fill=tk.X,
                                                                                       expand=True)
+        ttk.Label(
+            frame,
+            text="如果觉得本工具不错的话，请支持一下作者哦~(By.郭逍遥)",
+            foreground="red"
+        ).grid(row=4, column=0, columnspan=3, pady=(10, 0), sticky='w')
 
         self.cache_entry.insert(0, self.config.get('cache_root', ''))
         self.output_entry.insert(0, self.config.get('output_dir', ''))
