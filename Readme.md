@@ -72,6 +72,7 @@ BiliBili_Export/
 - FFmpeg
 
 ### ❖ 安装步骤
+[👉 点此下载v1.0发布版本](https://github.com/CN-GuoXiaoYao/BiliBili_Export/releases/latest)
 ```bash
 需提前配置好FFmpeg和环境变量
 下载发布的正式版，然后解压
