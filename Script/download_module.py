@@ -145,6 +145,10 @@ class BilibiliDownloader:
             if success and bvid:
                 title = BilibiliDownloader._get_bilibili_title(bvid)
                 BilibiliDownloader._record_download(bvid, "网络", title)
+                try:
+                    progress_callback(100)
+                except Exception:
+                    pass
 
     @staticmethod
     def _get_cache_folder_name(cache_root: str, bvid: str) -> str:
