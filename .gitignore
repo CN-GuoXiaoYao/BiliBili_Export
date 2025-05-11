@@ -1,0 +1,31 @@
+# 位于项目根目录的 .gitignore 文件
+
+# 忽略 Android 文件夹内的构建输出
+/Android/build/
+/Android/app/build/
+
+# 忽略 IDE 配置文件
+/Android/.idea/
+/Android/*.iml
+
+# 忽略 Gradle 本地缓存
+/Android/.gradle/
+
+# 忽略 Gradle 全局配置（通常无需提交）
+/Android/gradle/
+
+# 忽略本地配置文件
+/Android/local.properties
+
+# 可选：忽略测试报告
+/Android/app/test-results/
+/Android/app/reports/
+
+# 保留以下必要文件（取消忽略示例）
+!/Android/app/src/
+!/Android/app/build.gradle.kts
+!/Android/build.gradle.kts
+!/Android/settings.gradle.kts
+!/Android/gradlew
+!/Android/gradlew.bat
+!/Android/gradle/wrapper/gradle-wrapper.properties
