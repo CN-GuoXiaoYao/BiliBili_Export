@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btn_select_cache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择缓存目录"/>
+
+    <Button
+        android:id="@+id/btn_select_export"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择导出目录"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btn_export"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="导出文件夹名称"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="等待选择目录...\n一般B站默认缓存目录为Android/data/tv.danmaku.bili/download\n(因为有的手机不显示data文件夹，所以现在改成直接跳转了)\n得到导出的文件后，就可以在工具箱选择手机重载视频了"
+        android:textSize="14sp" />
+
+</LinearLayout>
