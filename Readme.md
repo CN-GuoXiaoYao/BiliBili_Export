@@ -149,7 +149,7 @@ BiliBili_Export/
 ---
 
 ## 👨💻 开发者
-郭逍遥 - [GitHub](https://github.com/CN-GuoXiaoYao) | [B站主页](https://space.bilibili.com/504668072)  |  [CSDN](https://blog.csdn.net/qq_58742026)
+郭逍遥 - [GitHub](https://github.com/CN-GuoXiaoYao) | [B站主页](https://space.bilibili.com/504668072)  |  [CSDN](https://blog.csdn.net/qq_58742026?type=blog)
 
 ---
 
