@@ -69,15 +69,14 @@ BiliBili_Export/
 ### ❖ 环境要求
 - Python 3.10+ 
 - Windows操作系统
+- FFmpeg
 
 ### ❖ 安装步骤
 ```bash
+需提前配置好FFmpeg和环境变量
 下载发布的正式版，然后解压
 双击 开始运行.bat 即可下载所需依赖并运行
 (会自动下载所需要的yutto和各种依赖)
-
-如果下载缓慢，可以使用以下命令切换国内镜像源下载依赖：
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
 ```
 
 ---
