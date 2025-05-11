@@ -524,7 +524,7 @@ class BilibiliToolkitGUI:
         """更新重载进度并处理完成状态"""
         self.reload_progress['value'] = value
         if value >= 100:
-            self.root.after(1000, self.reset_reload_ui)  # 1秒后重置
+            self.root.after(100, self.reset_reload_ui) 
         self.root.update_idletasks()
 
     def reset_reload_ui(self):
@@ -536,8 +536,10 @@ class BilibiliToolkitGUI:
     def update_download_progress(self, value):
         self.download_progress['value'] = value
         if value >= 100:
-            self.root.after(1000, lambda: self.download_progress.configure(value=0))
-        self.download_running = False
+            self.root.after(100, lambda: self.download_progress.configure(value=0))
+            self.toggle_buttons(self.download_btn, self.stop_download_btn, True)
+            self.download_running = False
+        self.root.update_idletasks()
 
     def stop_download(self):
         self.download_stop_event.set()
