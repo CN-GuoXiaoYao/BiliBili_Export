@@ -27,12 +27,13 @@ class BilibiliDownloader:
         try:
             if not record_file.exists():
                 record_file.touch(mode=0o666, exist_ok=True)
-            with open(record_file, "a+", encoding="utf-8-sig") as f:
+            with open(record_file, "r", encoding="utf-8", errors="ignore") as f:
                 existing = f.read()
                 if bvid and bvid not in existing:
-                    f.write(f"{bvid}|{folder_name}|{title}\n")
-                    os.fsync(f.fileno())
-                    download_logger.info(f"成功记录视频号: {bvid}, 存储方式: {folder_name}, 标题: {title}")
+                    with open(record_file, "a", encoding="utf-8") as f:
+                        f.write(f"{bvid}|{folder_name}|{title}\n")
+                        os.fsync(f.fileno())
+                        download_logger.info(f"成功记录视频号: {bvid}, 存储方式: {folder_name}, 标题: {title}")
         except Exception as e:
             download_logger.error(f"记录失败: {str(e)}")
 
