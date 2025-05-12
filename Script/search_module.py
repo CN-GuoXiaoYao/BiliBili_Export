@@ -12,7 +12,7 @@ class AdvancedSearchEngine:
         keyword = keyword.lower()  # 统一转为小写
 
         try:
-            with open(record_file, "r", encoding="utf-8") as f:
+            with open(record_file, "r", encoding="utf-8", errors="ignore") as f:
                 lines = f.readlines()
                 total = len(lines)
 
