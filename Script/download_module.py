@@ -27,8 +27,7 @@ class BilibiliDownloader:
         try:
             if not record_file.exists():
                 record_file.touch(mode=0o666, exist_ok=True)
-            with open(record_file, "a+", encoding="utf-8") as f:
-                f.seek(0)
+            with open(record_file, "a+", encoding="utf-8-sig") as f:
                 existing = f.read()
                 if bvid and bvid not in existing:
                     f.write(f"{bvid}|{folder_name}|{title}\n")
